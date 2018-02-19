@@ -1,1 +1,1 @@
-
+bingKey = 'AiTOIqMlenVq6WFCzMn6s1-UN3J7UEVpfbrJjuDLMdO4ruK0urvppSZiM4OxJMc0'
