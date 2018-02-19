@@ -15,7 +15,7 @@ Cython==0.25.2
 decorator==4.1.2
 
 descartes==1.1.0
-distro-info==0.17
+
 entrypoints==0.2.3
 Fiona==1.7.10.post1
 geojson==2.3.0
