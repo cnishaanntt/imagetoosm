@@ -13,7 +13,7 @@ cryptography==1.9
 cycler==0.10.0
 Cython==0.25.2
 decorator==4.1.2
-defer==1.0.6
+
 descartes==1.1.0
 distro-info==0.17
 entrypoints==0.2.3
