@@ -7,7 +7,7 @@ chardet==3.0.4
 click==6.7
 click-plugins==1.0.3
 cligj==0.4.0
-command-not-found==0.3
+
 cryptography==1.9
 cupshelpers==1.0
 cycler==0.10.0
