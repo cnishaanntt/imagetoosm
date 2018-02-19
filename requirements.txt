@@ -38,7 +38,7 @@ jupyter-core==4.4.0
 Keras==2.0.9
 keyring==10.4.0
 keyrings.alt==2.2
-language-selector==0.1
+
 launchpadlib==1.10.5
 lazr.restfulclient==0.13.5
 lazr.uri==1.0.3
