@@ -81,21 +81,17 @@ queryFull = """[timeout:125];
     """
 
 # fetch all ways and nodes
-queryMA = """[timeout:125];
+queryRIBasketball = """[timeout:125];
     ( 
-        area[admin_level=4][boundary=administrative][name="Massachusetts"];         
+        area[admin_level=4][boundary=administrative][name="Rhode Island"];         
     )->.searchArea;
-    (
-    way["sport"="baseball"]["leisure"="pitch"](area.searchArea);
-    way["sport"="tennis"]["leisure"="pitch"](area.searchArea);
-    way["sport"="soccer"]["leisure"="pitch"](area.searchArea);
-    way["sport"="american_football"]["leisure"="pitch"](area.searchArea);    
+    (   
     way["sport"="basketball"]["leisure"="pitch"](area.searchArea);    
     );
     (._;>;);
     out body;
     """
-saveOsmData(queryFull)
+saveOsmData(queryRIBasketball)
     
 # Other possible data to query
 #  - bridges
