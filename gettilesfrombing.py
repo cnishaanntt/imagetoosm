@@ -34,8 +34,8 @@ for classDir in os.listdir(cfg.rootOsmDir) :
     classDirFull = os.path.join( cfg.rootOsmDir,classDir)
     for fileName in os.listdir(classDirFull) :
         x=fileName.split('.')
-        print(x[-1])
-        fullPath = os.path.join( cfg.rootOsmDir,classDir,fileName)
+        if (x[-1])=='csv':
+            fullPath = os.path.join( cfg.rootOsmDir,classDir,fileName)
         with open(fullPath, "rt") as csvfile:
             csveader = csv.reader(csvfile, delimiter='\t')
             print("%s " % (fullPath),end='')
