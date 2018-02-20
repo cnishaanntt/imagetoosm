@@ -36,6 +36,8 @@ for classDir in os.listdir(cfg.rootOsmDir) :
         x=fileName.split('.')
         if (x[-1])=='csv':
             fullPath = os.path.join( cfg.rootOsmDir,classDir,fileName)
+        else:
+            break
         with open(fullPath, "rt") as csvfile:
             csveader = csv.reader(csvfile, delimiter='\t')
             print("%s " % (fullPath),end='')
