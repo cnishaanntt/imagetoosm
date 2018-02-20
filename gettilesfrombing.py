@@ -33,8 +33,8 @@ if ( os.path.exists(bingTilesDir) == False) :
 for classDir in os.listdir(cfg.rootOsmDir) :
     classDirFull = os.path.join( cfg.rootOsmDir,classDir)
     for fileName in os.listdir(classDirFull) :
+        print(fileName.split[0])
         fullPath = os.path.join( cfg.rootOsmDir,classDir,fileName)
-        print(fileName)
         with open(fullPath, "rt") as csvfile:
             csveader = csv.reader(csvfile, delimiter='\t')
             print("%s " % (fullPath),end='')
