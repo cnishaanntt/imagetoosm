@@ -40,7 +40,8 @@ for classDir in os.listdir(cfg.rootOsmDir) :
 
             neededTile = False
             for row in csveader:
-
+                print (row[0])
+                print (row[1])                
                 tilePixel = quadkey.TileSystem.geo_to_pixel((float(row[0]),float(row[1])), cfg.tileZoom)
 
                 for x in range(-2,3) :
