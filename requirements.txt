@@ -8,7 +8,7 @@ click==6.7
 click-plugins==1.0.3
 cligj==0.4.0
 
-cryptography==1.9
+cryptography==3.2
 
 cycler==0.10.0
 Cython==0.25.2
